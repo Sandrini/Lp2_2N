@@ -33,8 +33,8 @@ public class TravessiaDesertoTeste {
 	public void initGameTest() {
 		travessia.initGame();
 		assertEquals(0, travessia.getPos());
-		assertEquals(travessia.MAX_FUEL, travessia.getFuel());
-		assertEquals(travessia.MAP_SIZE, travessia.getMap().length);
+		assertEquals(TravessiaDeserto.MAX_FUEL, travessia.getFuel());
+		assertEquals(TravessiaDeserto.MAP_SIZE, travessia.getMap().length);
 	}
 
 	@Test
